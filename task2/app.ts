@@ -3,8 +3,8 @@ const bodyParser = require("body-parser");
 
 const app = express();
 
-const host:string = '127.0.0.1';
-const port:number  = 3005;
+const host = '127.0.0.1';
+const port  = 3005;
 
 app.use(bodyParser.json());
 
