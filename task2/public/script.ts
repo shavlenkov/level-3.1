@@ -23,7 +23,7 @@ function clickBtn(znak: Znak) {
         } else if(data.minus) {
             const minus = document.getElementById("counterMinus");
 
-            minus.textContent = Number(minus.innerText) + 1;
+            minus.innerText = Number(minus.innerText) + 1;
         }
     });
 
