@@ -14,8 +14,8 @@ function mapObject<T>(obj: Record<keyof A<T>, T>, x: (el:any) => T) {
 }
 
 
-let obj = {a: 1, b: 3, c: "dsfdsdsf"};
+let obj = {a: 1, b: 3, c: 2};
 
 console.log(mapObject(obj, (a) => {
-    return {test: 1};
+    return a * 2;
 }))
