@@ -25,7 +25,7 @@ class Circle {
  
  
 function func<T>(a: Obj | Record<string, T>, x: (el:AnyButtonType) => Record<string, T>) {
- 
+   // сигнатура функции
 }
  
 function наштамповать<T>(SOMECLASS:{ new(): T; }, count:number)  {
