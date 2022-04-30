@@ -22,5 +22,5 @@ function summ(a: Obj) {
     return sum;
 }
 
-let a = summ({ hello: { cvalue: 1 }, hello2: { cvalue: 5 }, hello3: { cvalue: 3 }});
+let a = summ({ hello: { cvalue: 1 }, hello2: { cvalue: 2 }, hello3: { cvalue: 3 }});
 console.log(a)
