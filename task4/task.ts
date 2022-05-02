@@ -2,7 +2,7 @@ type A<T> = {
     [a: string]: T
 }
 
-function mapObject<T>(obj: Record<keyof A<T>, T>, x: (el:any) => T) {
+function mapObject<T, T2>(obj: Record<keyof A<T>, T>, x: (el:T2) => T) {
 
     let a = obj;
 
